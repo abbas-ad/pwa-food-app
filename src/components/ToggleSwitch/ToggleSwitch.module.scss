@@ -1,0 +1,13 @@
+.Toggle + label span {
+    transition: all .4s;
+}
+.Toggle:checked + label span {
+    transform: translateX(calc(-97% + .75rem));
+}
+
+.Toggle:checked + label p:first-of-type {
+    color: black;
+}
+.Toggle:checked + label p:last-of-type {
+    color: white;
+}

@@ -1,0 +1,10 @@
+.CustomRadio {
+    & input {
+        + label svg {display: none;}
+        &:checked + label {
+            & svg {
+                display: block;
+            }
+        }
+    }
+}

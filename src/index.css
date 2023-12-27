@@ -1,0 +1,168 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: yekan-thin;
+  src: url("../src/assets/fonts/iranyekanwebthinfanum.ttf");
+
+}
+
+@font-face {
+  font-family: yekan-regular;
+  src: url("../src/assets/fonts/iranyekanwebregularfanum.ttf");
+
+}
+
+@font-face {
+  font-family: yekan-medium;
+  src: url("../src/assets/fonts/iranyekanwebmediumfanum.ttf");
+
+}
+
+@font-face {
+  font-family: yekan-bold;
+  src: url("../src/assets/fonts/iranyekanwebboldfanum.ttf");
+
+}
+
+
+
+
+
+html {
+  font-size: 62.5%;
+  direction: rtl;
+  background-color: #F8F8F8;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: #F8F8F8;
+  font-family: yekan-regular, sans-serif !important;
+}
+
+
+@layer utilities {
+
+  .flex-10 {
+    flex-basis: 10%;
+  }
+  .flex-20 {
+    flex-basis: 20%;
+  }
+
+  .flex-30 {
+    flex-basis: 30%;
+  }
+
+  .flex-40 {
+    flex-basis: 40%;
+  }
+
+  .flex-50 {
+    flex-basis: 50%;
+  }
+
+  .flex-60 {
+    flex-basis: 60%;
+  }
+
+  .flex-70 {
+    flex-basis: 70%;
+  }
+
+  .max-h-middle {
+    max-height: 50%;
+  }
+}
+
+
+.ma-checkbox label {
+  display: flex;
+  align-items: center;
+}
+
+.ma-checkbox input + label::before{
+  content: "";
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: .5rem;
+  border: .15rem solid black;
+  margin-left: 1rem;
+}
+.ma-checkbox input:checked + label::before{
+  background-image: url('./assets/svgs/checkSmIcon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  opacity: 1;
+}
+
+
+.ma-loading div {
+  animation: loading 1s linear infinite;
+}
+
+.ma-loading div:nth-child(1){
+  animation-delay: 0s;
+}
+.ma-loading div:nth-child(2){
+  animation-delay: .25s;
+}
+
+.ma-loading div:nth-child(3){
+  animation-delay: .75s;
+}
+.ma-loading div:nth-child(4){
+  animation-delay: .5s;
+}
+
+
+@keyframes loading {
+  0% { background: black }
+  25% { background: black }
+  25.25% { background: #e5e5e5 }
+  100% { background: #e5e5e5 }
+}
+
+.shimmer-loading {
+  animation : shimmer 2s infinite linear;
+  background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+   background-size: 1000px 100%;
+  /* border-radius: .2rem; */
+}
+
+@keyframes shimmer {
+ 0% {
+   background-position: -1000px 0;
+ }
+ 100% {
+   background-position: 1000px 0;
+ }
+}
+
+
+.hidescrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hidescrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.border-active-py{
+  border-color: black !important;
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.877" height="45.82" viewBox="0 0 50.877 45.82">
+  <g id="tick-mark" transform="translate(-0.134 -1.91)">
+    <g id="bg" transform="translate(0.134 1.91)">
+      <g id="Group_170" data-name="Group 170">
+        <path id="Path_301" data-name="Path 301" d="M49.643,28.174c-5.385-8.246-4.813-16.7-7.409-20.672S31.9-3.324,13.624,8.615-.006,33.533,2.851,37.9C16.218,58.367,59.181,42.777,49.643,28.174Z" transform="translate(-0.134 -1.91)" fill="#efefef"/>
+      </g>
+    </g>
+    <g id="color" transform="translate(9.554 8.802)">
+      <g id="Group_171" data-name="Group 171">
+        <circle id="Ellipse_64" data-name="Ellipse 64" cx="16.019" cy="16.019" r="16.019"/>
+      </g>
+      <g id="Group_173" data-name="Group 173" transform="translate(28.122 30.97)">
+        <path id="Path_303" data-name="Path 303" d="M28.636,32.772a2.136,2.136,0,1,1,2.136-2.136A2.138,2.138,0,0,1,28.636,32.772Zm0-2.848a.712.712,0,1,0,.712.712A.712.712,0,0,0,28.636,29.924Z" transform="translate(-26.5 -28.5)" fill="#6c757e"/>
+      </g>
+    </g>
+    <g id="regular" transform="translate(8.486 7.734)">
+      <g id="Group_174" data-name="Group 174">
+        <path id="Path_304" data-name="Path 304" d="M23.087,40.174A17.087,17.087,0,1,1,40.174,23.087,17.106,17.106,0,0,1,23.087,40.174Zm0-32.038A14.951,14.951,0,1,0,38.038,23.087,14.967,14.967,0,0,0,23.087,8.136Z" transform="translate(-6 -6)" fill="#6c757e"/>
+      </g>
+      <g id="Group_175" data-name="Group 175" transform="translate(10.103 11.703)">
+        <path id="Path_305" data-name="Path 305" d="M18.477,25.3a1.06,1.06,0,0,1-.755-.313l-4.628-4.628,1.511-1.511,3.873,3.873,8.5-8.5L28.49,15.73l-9.255,9.255a1.071,1.071,0,0,1-.758.313Z" transform="translate(-13.095 -14.219)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

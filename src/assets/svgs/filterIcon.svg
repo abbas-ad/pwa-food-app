@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="20" viewBox="0 0 18.5 20">
+  <g id="فیلتر" transform="translate(3505 -3107)">
+    <g id="Ellipse_356" data-name="Ellipse 356" transform="translate(-3505 3107)" fill="none" stroke="#000" stroke-width="2">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="4" fill="none"/>
+    </g>
+    <line id="Line_218" data-name="Line 218" x1="10" transform="translate(-3496.5 3112)" fill="none" stroke="#000" stroke-width="2"/>
+    <g id="Ellipse_357" data-name="Ellipse 357" transform="translate(-3496.5 3117)" fill="none" stroke="#000" stroke-width="2">
+      <circle cx="5" cy="5" r="5" stroke="none"/>
+      <circle cx="5" cy="5" r="4" fill="none"/>
+    </g>
+    <line id="Line_219" data-name="Line 219" x2="10" transform="translate(-3505 3122)" fill="none" stroke="#000" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+.NewComment {
+    &__CheckBox {
+        &:checked + label {
+            display: none;
+        }
+        &:checked + label + form{
+            max-height: 50rem;
+            transition: all .7s;
+        }
+    }
+}

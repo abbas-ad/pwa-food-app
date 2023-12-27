@@ -1,0 +1,24 @@
+.Input {
+    display: none;
+
+    & + label {
+        & span:last-child{
+            transition: all .5s;
+            transform: rotate(180deg);
+
+        }
+    }
+    &:checked + label {
+        transition: all .2s;
+
+        & span:last-child{
+            transition: all .5s;
+            transform: rotate(0);
+        }
+    }
+
+    &:checked + label + div{
+        max-height: 100rem;
+        transition: all .5s;
+    }
+}

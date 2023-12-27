@@ -1,0 +1,36 @@
+.Input {
+    display: none;
+
+    & + label {
+        & span:last-child{
+            transition: all .2s;
+            transform: rotate(0);
+        }
+    }
+    &:checked + label {
+        transition: all .5s;
+
+        & span:last-child{
+            transition: all .5s;
+            transform: rotate(180deg);
+        }
+    }
+
+    &:checked + label + div{
+        max-height: 40rem;
+        transition: all .5s ease-in-out;
+    }
+}
+
+.Dot {
+
+        &::before {
+            content: "\200B";
+            display: block;
+            width: .7rem;
+            height: .7rem;
+            background-color: #04944F;
+            border-radius: 50%;
+            margin-left: .5rem;
+        }
+}

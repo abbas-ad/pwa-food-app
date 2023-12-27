@@ -1,0 +1,16 @@
+.CustomSelect {
+    display: none;
+
+    & + label {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+    }
+
+    &:checked + label {
+        background-color: #D03435;
+        background-image: url('../../assets/svgs/checkIcon.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

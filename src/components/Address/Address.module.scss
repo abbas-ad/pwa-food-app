@@ -1,0 +1,31 @@
+.CustomRadio {
+    & input {
+        &:checked + label {
+            border-color: black;
+
+            & span {
+                background-color: black;
+            }
+        }
+    }
+}
+
+.CustomOption {
+    &::before , &::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        width: .5rem;
+        height: .5rem;
+        background-color: black;
+    }
+
+    &::before {
+        top: -.65rem;
+    }
+
+    &::after {
+        bottom: -.65rem;
+    }
+}

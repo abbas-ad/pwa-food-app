@@ -1,0 +1,48 @@
+.CustomSelect {
+    display: none;
+
+    & + label {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+    }
+
+    &:checked + label {
+        background-color: #04944F;
+        background-image: url('../../assets/svgs/checkIcon.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.RememberMe {
+    & input img{
+        display: none;
+    }
+
+    & label {
+        display: flex;
+        align-items: center;
+    }
+
+
+    & input + label::before{
+        content: "";
+        display: block;
+        height: 1.5rem;
+        width: 1.5rem;
+        padding: .5rem;
+        border: .15rem solid black;
+        margin-left: 1rem;
+    }
+
+
+    & input:checked + label::before{
+        background-image: url('../../assets/svgs/checkSmIcon.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+        opacity: 1;
+    }
+}

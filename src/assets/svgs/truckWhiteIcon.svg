@@ -1,0 +1,15 @@
+<svg id="vuesax_bold_truck-fast" data-name="vuesax/bold/truck-fast" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="truck-fast">
+    <path id="Vector" d="M.5,10.5A.5.5,0,0,0,0,11v1a3,3,0,0,0,3,3,3,3,0,0,1,6,0h2a3,3,0,0,1,6,0,3,3,0,0,0,3-3V10a1,1,0,0,0-1-1H9.5A2.5,2.5,0,0,1,7,6.5V1A1,1,0,0,0,6,0H5.16A2.016,2.016,0,0,0,3.42,1.01L2.78,2.13A.252.252,0,0,0,3,2.5,2.5,2.5,0,0,1,5.5,5V8A2.5,2.5,0,0,1,3,10.5Z" transform="translate(2 5)" fill="#fff"/>
+    <path id="Vector-2" data-name="Vector" d="M0,2A2,2,0,1,0,2,0,2,2,0,0,0,0,2Z" transform="translate(14 18)" fill="#fff"/>
+    <path id="Vector-3" data-name="Vector" d="M0,2A2,2,0,1,0,2,0,2,2,0,0,0,0,2Z" transform="translate(6 18)" fill="#fff"/>
+    <path id="Vector-4" data-name="Vector" d="M0,3.53V5H3A1,1,0,0,0,4,4V1A1,1,0,0,0,3,0H1.71L.26,2.54A2,2,0,0,0,0,3.53Z" transform="translate(2 9)" fill="#fff"/>
+    <path id="Vector-5" data-name="Vector" d="M24,0H0V24H24Z" fill="none" opacity="0"/>
+    <g id="Group" transform="translate(10 2)">
+      <path id="Vector-6" data-name="Vector" d="M.92,0H8.31a3.691,3.691,0,0,1,3.62,2.98H7.56a.683.683,0,0,0-.68.69.674.674,0,0,0,.68.68H12V5.73H9.4a.691.691,0,0,0-.69.69.683.683,0,0,0,.69.68H12V8.48h-.77a.691.691,0,0,0-.69.69.683.683,0,0,0,.69.68H12v.23a1,1,0,0,1-1,1H1.85A1.852,1.852,0,0,1,0,9.23V.92A.918.918,0,0,1,.92,0Z" fill="#fff"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H1.13a.691.691,0,0,1,.69.69.683.683,0,0,1-.69.68H.07V.71A4.167,4.167,0,0,0,0,0Z" transform="translate(11.93 2.98)" fill="#fff"/>
+      <path id="Vector-8" data-name="Vector" d="M.15,0h.91a.691.691,0,0,1,.69.69.683.683,0,0,1-.69.68H0V0Z" transform="translate(12 5.73)" fill="#fff"/>
+      <path id="Vector-9" data-name="Vector" d="M.15,0h.91a.691.691,0,0,1,.69.69.683.683,0,0,1-.69.68H0V0Z" transform="translate(12 8.48)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
